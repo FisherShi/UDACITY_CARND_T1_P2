@@ -9,7 +9,6 @@
 [image6]: ./test_img_output.png "Output"
 [video1]: ./project_video.mp4 "Video"
 
----
 
 # UDACITY Traffic Sign Classifier
 
