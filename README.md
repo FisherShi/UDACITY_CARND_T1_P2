@@ -1,6 +1,3 @@
-
-[//]: # (Image References)
-
 [image1]: ./camera_cal/chessboard_undistorted.png "Undistorted Chessboard"
 [image2]: ./camera_cal/test_img_undistorted.png "undistorted test image"
 [image3]: ./test_img_binary.png "Binary Example"
