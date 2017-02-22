@@ -46,3 +46,20 @@ Techniques used to preprocess the data:
 * Turned colored images into grayscale by converting the images to YUV channels and only leave the Y channel (the paper provided for this project suggests that although counter-intuitive,the grayscal images can provide better results than the RGB images); 
 * Normalized the grayscale images to prevent over compensating a correction in one weight dimension while undercompensating in another; 
 * Reshaped X_train, X_test to flatten the images
+
+In terms of data augmentation, I generated additional training data by transforming the original images. Some examples below:
+
+![alt text][image2]
+
+## Model Architecture
+
+The code for this step is contained in section _Step 3: Model Architecure_ of the IPython notebook.
+
+In terms of model structure, I started with 1 conv layer + 1 fully connected layer (classification layer), and the best result was ~78% validation accuracy; then 2 conv layers + 1 FCL, best accuracy: ~83%; then 2 conv layers + 2 FCL, best accuracy: 97%. for filter size, I tried 33 and 55, for number of filters, I tried 16, 32, 64 for each conv layer; for number of nurons in the 1st fully connected layer, I tried 128 and 256. The final model has 2 conv layers, 1 flattern layer, and 2 fully connceted layers. 
+
+To train the model, I used the following parameters after hours of fine-tuning:
+* **Optimizer: AdamOptimizer**: I chose Adam Optimizer because it is usually faster than SGD, and less likely to get stuck in saddle points
+* **batch size:500**: For batch size, I set it to the biggest batch possible to control the noise of training signal. if the batch size is too small, the training data tend to be biased for each batch. I believe a bigger batch size, with enough epoches, is better than a small one
+* **epochs:100**: For epoch, I gradually increase the number of epoches until overfitting occurs
+* **learning_rate = 0.0001**: For learning rate, I started with a very big number 0.01, then gradually decrease until there's improvements on accuracy 
+* **dropout probabitlity = 0.7**: For dropout probability, I started with 1, and gradually decrease the value
