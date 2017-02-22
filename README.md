@@ -1,4 +1,4 @@
-[image1]: .data_summary.png "data summary"
+[image1]: ./data_summary.png "data summary"
 [image2]: .test_result.png "test result"
 [image3]: .test_result2.png "test on new images"
 
