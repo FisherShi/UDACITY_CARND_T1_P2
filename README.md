@@ -22,7 +22,7 @@ The project repo from Udacity can be found [here](https://github.com/udacity/Car
 
 Data set used in this project is from [German Traffic Sign Dataset](http://benchmark.ini.rub.de/?section=gtsrb&subsection=dataset). 
 
-## Data Set Summary & Exploration
+## Dataset Summary & Exploration
 
 The code for this step is contained in section _Step 1: Dataset Exploration_ of the IPython notebook _Traffic_Signs_Recognition.ipny_. Summary of the dataset:
 
