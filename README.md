@@ -1,10 +1,6 @@
-[image1]: ./camera_cal/chessboard_undistorted.png "Undistorted Chessboard"
-[image2]: ./camera_cal/test_img_undistorted.png "undistorted test image"
-[image3]: ./test_img_binary.png "Binary Example"
-[image4]: ./test_img_warped.png "Warp Example"
-[image5]: ./test_img_polyfit.png "Fit Visual"
-[image6]: ./test_img_output.png "Output"
-[video1]: ./project_video.mp4 "Video"
+[image1]: .data_summary.png "data summary"
+[image2]: .test_result.png "test result"
+[image3]: .test_result2.png "test on new images"
 
 
 # UDACITY Traffic Sign Classifier
@@ -36,5 +32,6 @@ The code for this step is contained in section _Step 1: Dataset Exploration_ of 
 * Image data size flat= 1024
 * Number of classes = 43
 
-Here is an exploratory visualization of the dataset. Here is a histogram showing the distribution of classes:
+Here is an exploratory visualization of the dataset showing the histogram of classes:
 
+![alt text][image1]
