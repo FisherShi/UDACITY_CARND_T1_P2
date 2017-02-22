@@ -1,3 +1,16 @@
+
+[//]: # (Image References)
+
+[image1]: ./camera_cal/chessboard_undistorted.png "Undistorted Chessboard"
+[image2]: ./camera_cal/test_img_undistorted.png "undistorted test image"
+[image3]: ./test_img_binary.png "Binary Example"
+[image4]: ./test_img_warped.png "Warp Example"
+[image5]: ./test_img_polyfit.png "Fit Visual"
+[image6]: ./test_img_output.png "Output"
+[video1]: ./project_video.mp4 "Video"
+
+---
+
 # UDACITY Traffic Sign Classifier
 
 ## The Goal of this Project
