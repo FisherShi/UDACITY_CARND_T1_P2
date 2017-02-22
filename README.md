@@ -1,7 +1,6 @@
 [image1]: ./data_summary.png "data summary"
 [image2]: ./data_augmentation.png "data augmentation"
 [image3]: .test_result.png "test result"
-[image4]: .test_result2.png "test on new images"
 
 
 # UDACITY Traffic Sign Classifier
@@ -63,3 +62,15 @@ To train the model, I used the following parameters after hours of fine-tuning:
 * **epochs:100**: For epoch, I gradually increase the number of epoches until overfitting occurs
 * **learning_rate = 0.0001**: For learning rate, I started with a very big number 0.01, then gradually decrease until there's improvements on accuracy 
 * **dropout probabitlity = 0.7**: For dropout probability, I started with 1, and gradually decrease the value
+
+Accuracy on Test-Set: 94.7% (11964 / 12630)
+
+## Test on New Images
+
+To further test my model, I took several pictures of traffic signs on the web, and run them through your classifier on your computer to produce example results. The code for this step is contained in section _Step 4: Test the Model on New Images_ of the IPython notebook.
+
+The following is the result of the test:
+
+![alt text][image3]
+
+For the 2 wrong predictions, the correct prediction appears in top 5 (2nd prediction) of image 2, however, correct prediction does not appear in top 5 of image 7.
