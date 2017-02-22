@@ -24,7 +24,7 @@ Data set used in this project is from [German Traffic Sign Dataset](http://bench
 
 ## Dataset Summary & Exploration
 
-The code for this step is contained in section _Step 1: Dataset Exploration_ of the IPython notebook _Traffic_Signs_Recognition.ipny_. Summary of the dataset:
+The code for this step is contained in section _Step 1: Dataset Exploration_ of the IPython notebook _Traffic_Signs_Recognition.ipnb_. Summary of the dataset:
 
 * Number of training examples = 39209
 * Number of testing examples = 12630
