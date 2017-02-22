@@ -1,6 +1,6 @@
 [image1]: ./data_summary.png "data summary"
 [image2]: ./data_augmentation.png "data augmentation"
-[image3]: .test_result.png "test result"
+[image3]: ./test_result.png "test result"
 
 
 # UDACITY Traffic Sign Classifier
